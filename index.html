@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>字体样式设置</title>
+		<style type="text/css">
+			.font1{
+				font-size: 60px;
+				font-family: "microsoft yahei";
+				color: #A52A2A;
+				font-weight: 900;
+				line-height: 120px;
+				text-align: center;
+			}
+			/* 镂空字体 */
+			.font2{
+				font-size: 60px;
+				font-family: "microsoft yahei";
+				color: #ffffff;
+				font-weight: 900;
+				line-height: 120px;
+				text-align: center;
+				text-shadow: 0px 0px 2px #000;
+			}
+			/* 字体阴影效果设置 */
+			.font3{
+				font-size: 60px;
+				font-family: "microsoft yahei";
+				color: #FFAAFF;
+				font-weight: 900;
+				line-height: 120px;
+				text-align: center;
+				text-shadow: 5px 5px 2px #333;
+			}
+			
+			/* 发光字体 */
+			.font4{
+				font-size: 60px;
+				font-family: "microsoft yahei";
+				color: #fff;
+				font-weight: 900;
+				line-height: 120px;
+				text-align: center;
+				text-shadow: 0px 0px 10px #ff007f,0px 0px 5px #ff557f, 0px 0px 1px #ffaa7f;
+			}
+			
+			/* 立体字设置 */
+			.font5{
+				font-size: 60px;
+				font-family: "microsoft yahei";
+				color: #ffaa7f;
+				font-weight: 900;
+				line-height: 120px;
+				text-align: center;
+				text-shadow: 1px 1px 2px #ff007f,2px 2px 2px #ff557f, 3px 3px 2px #ffaa7f;
+			}
+			
+			/* 字体闪烁 */
+			.font6{
+				font-size: 60px;
+				font-family: "microsoft yahei";
+				color: #fff;
+				font-weight: 900;
+				line-height: 120px;
+				text-align: center;
+				/* text-shadow: 0px 0px 10px #ff007f,0px 0px 5px #ff557f, 0px 0px 1px #ffaa7f; */
+				animation: donghua 1s infinite alternate;
+			}
+			@keyframes donghua{
+				from{ text-shadow:0px 0px 10px #ff007f,0px 0px 5px #ff557f, 0px 0px 1px #ffaa7f}
+				to{ text-shadow:0px 0px 5px #ff007f,0px 0px 3px #ff557f, 0px 0px 1px #ffaa7f}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="font1">
+			HelloWord
+		</div>
+		
+		<div class="font2">
+			HelloWord
+		</div>
+		
+		<div class="font3">
+			HelloWord
+		</div>
+		
+		<div class="font4">
+			HelloWord
+		</div>
+		
+		<div class="font5">
+			HelloWord
+		</div>
+		
+		
+		<div class="font6">
+			HelloWord
+		</div>
+	</body>
+</html>
